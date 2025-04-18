@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/SukhOberoi/jenkinsTF.git'
+                git branch: 'master', url: 'https://github.com/SukhOberoi/jenkinsTF.git'
             }
         }
         stage('Terraform init') {
